@@ -1,5 +1,8 @@
 # Algorithms-and-Big-O-notation-C#
 
+A small cheat sheet for understanding the time and space complexity of algorithms:
+
+
 - <strong>O(N!)</strong> - The worst of everyone else. The bigger the input the bigger is time. The most complex.
 
 - <strong>O(2^N)</strong> - A better Version of O(N!), but less complex and still takes a while.
