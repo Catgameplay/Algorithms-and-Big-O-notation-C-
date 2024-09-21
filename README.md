@@ -20,3 +20,5 @@ A small cheat sheet for understanding the time and space complexity of algorithm
 - <strong>O(log n)</strong> -  Time increases logarithmically to increase input *n*.
 
 - <strong>O(1)</strong> - the algorithm has constant complexity and in code could be described as the amount of time or memory that does not scale with *n*. 
+
+![My Image](https://i.imgur.com/Qr5yimL.png)
