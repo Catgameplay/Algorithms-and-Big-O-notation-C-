@@ -9,3 +9,9 @@
 - O(N^2) - Like O(N^3), but less complex and input^2=time.
 
 - O(n log(n)) AKA loglinear complexity - operations will occur *n* times
+
+- O(n) - Time or space will increase the bigger is the input.
+
+- O(log n) -  Time increases logarithmically to increase input *n*.
+
+- <strong>Amoda</strong>
