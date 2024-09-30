@@ -1,4 +1,4 @@
-# Algorithms-and-Big-O-notation-C#
+## Algorithms-and-Big-O-notation-C#
 
 
 Big O notation describes the complexity of code using algebraic terms(time and space).
