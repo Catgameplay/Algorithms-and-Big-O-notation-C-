@@ -1,4 +1,4 @@
-# Array Data Structure
+# Backtracking Algorithm
 
 
 <strong>Backtracking algorithms</strong> are like problem-solving strategies that help explore different options to find the best solution. 
