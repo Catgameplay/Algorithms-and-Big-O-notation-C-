@@ -53,5 +53,5 @@ Backtracking algorithms are used in a wide variety of applications, including:
 - Network optimization problems
 
 
-For more explenation check out this info:
+For more explanation check out this info:
 https://www.geeksforgeeks.org/backtracking-algorithms/

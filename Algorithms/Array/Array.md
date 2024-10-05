@@ -42,5 +42,5 @@ Arrays are used in a wide variety of applications, including:
 - Representing data in tables and matrices
 - Creating dynamic data structures such as linked lists and trees
 
-For more explenation check out this info:
+For more explanation check out this info:
 https://www.geeksforgeeks.org/array-data-structure-guide/
