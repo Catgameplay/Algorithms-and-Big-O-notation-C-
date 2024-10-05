@@ -1,9 +1,5 @@
 # Backtracking Algorithm
 
-```
-Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, …
-```
-
 <strong>Backtracking algorithms</strong> are like problem-solving strategies that help explore different options to find the best solution. 
 They work by trying out different paths and if one doesn’t work, they backtrack and try another until they find the right one.
 It’s like solving a puzzle by testing different pieces until they fit together perfectly.
