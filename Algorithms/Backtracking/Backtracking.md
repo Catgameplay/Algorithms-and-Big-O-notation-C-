@@ -1,56 +1,42 @@
-# Backtracking Algorithm
-
-<strong>Backtracking algorithms</strong> are like problem-solving strategies that help explore different options to find the best solution. 
-They work by trying out different paths and if one doesn’t work, they backtrack and try another until they find the right one.
-It’s like solving a puzzle by testing different pieces until they fit together perfectly.
-    ![My Image](Assets/Backtracking.png)
-
-## What is Backtracking Algorithm?
-<strong>Backtracking</strong> is a problem-solving algorithmic technique that involves finding a solution incrementally by trying <strong>different options</strong> and <strong>undoing</strong> them if they lead to a <strong>dead end</strong>.
-It is commonly used in situations where you need to explore multiple possibilities to solve a problem, like searching for a path in a maze or solving puzzles like Sudoku.
-When a dead end is reached, the algorithm backtracks to the previous decision point and explores a different path until a solution is found or all possibilities have been exhausted.
-
-## How Does a Backtracking Algorithm Work?
-A <strong>backtracking algorithm</strong> works by recursively exploring all possible solutions to a problem.
-It starts by choosing an initial solution, and then it explores all possible extensions of that solution.
-If an extension leads to a solution, the algorithm returns that solution.
-If an extension does not lead to a solution, the algorithm backtracks to the previous solution and tries a different extension.
-The following is a general outline of how a backtracking algorithm works:
-
-1. Choose an initial solution.
-2. Explore all possible extensions of the current solution.
-3. If an extension leads to a solution, return that solution.
-4.If an extension does not lead to a solution, backtrack to the previous solution and try a different extension.
-5.Repeat steps 2-4 until all possible solutions have been explored.
-
-## Example of Backtracking Algorithm
-<strong>Example:</strong> Finding the shortest path through a maze
-<strong>Input:</strong> A maze represented as a 2D array, where 0 represents an open space and 1 represents a wall.
-
-<strong>Algorithm:</strong>
-
-1.Start at the starting point.
-2.For each of the four possible directions (up, down, left, right), try moving in that direction.
-3.If moving in that direction leads to the ending point, return the path taken.
-4.If moving in that direction does not lead to the ending point, backtrack to the previous position and try a different direction.
-5.Repeat steps 2-4 until the ending point is reached or all possible paths have been explored.
-
-## When to Use a Backtracking Algorithm?
-Backtracking algorithms are best used to solve problems that have the following characteristics:
-
-- There are multiple possible solutions to the problem.
-- The problem can be broken down into smaller subproblems.
-- The subproblems can be solved independently.
-
-## Applications of Backtracking Algorithm
-Backtracking algorithms are used in a wide variety of applications, including:
-
-- Solving puzzles (e.g., Sudoku, crossword puzzles)
-- Finding the shortest path through a maze
-- Scheduling problems
-- Resource allocation problems
-- Network optimization problems
+# Array Data Structure
 
 
-For more explenation check out this info:
-https://www.geeksforgeeks.org/backtracking-algorithms/
+Dynamic Programming is a method used in mathematics and computer science to solve complex problems by breaking them down into simpler subproblems.
+By solving each subproblem only once and storing the results, it avoids redundant computations, leading to more efficient solutions for a wide range of problems. 
+This article provides a detailed exploration of dynamic programming concepts, illustrated with examples.
+    ![My Image](Assets/Dynamic.png)
+
+## What is Dynamic Programming (DP)?
+Dynamic Programming (DP) is a method used in mathematics and computer science to solve complex problems by breaking them down into simpler subproblems. 
+By solving each subproblem only once and storing the results, it avoids redundant computations, leading to more efficient solutions for a wide range of problems.
+
+## How Does Dynamic Programming (DP) Work?
+- Identify Subproblems: Divide the main problem into smaller, independent subproblems.
+- Store Solutions: Solve each subproblem and store the solution in a table or array.
+- Build Up Solutions: Use the stored solutions to build up the solution to the main problem.
+- Avoid Redundancy: By storing solutions, DP ensures that each subproblem is solved only once, reducing computation time.
+
+## Examples of Dynamic Programming (DP)
+Example 1: Consider the problem of finding the Fibonacci sequence:
+```
+Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, …
+```
+Brute Force Approach:
+To find the nth Fibonacci number using a brute force approach, you would simply add the (n-1)th and (n-2)th Fibonacci numbers.
+This would work, but it would be inefficient for large values of n, as it would require calculating all the previous Fibonacci numbers.
+Dynamic Programming Approach:
+                                Nth Term of Fibonacci Series
+Here Fn denotes Nth Term of the Fibonacci
+                                            <span style="color:green;">F4</span>
+                                           /  \
+                                          /    \
+                                         /      \
+                                       F3        F2
+                                      /  \      /  \
+                                     /    \    /    \
+                                    F2    F1   F1   F0
+                                   /  \                
+                                 F1    F0                
+
+Fibonacci Series using Dynamic Programming
+
